@@ -1,5 +1,5 @@
-import NavBar from "./navbar";
-import Page from './page';
+import NavBar from "./navbar.jsx";
+import Page from "./page.jsx";
 
 function App() {
   return (

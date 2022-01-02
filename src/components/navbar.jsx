@@ -1,5 +1,5 @@
 import { Navbar, NavItem, NavLink, Collapse, Nav } from "reactstrap";
-import "./page.css";
+import "../page.css";
 
 const NavBar = () => {
   return (

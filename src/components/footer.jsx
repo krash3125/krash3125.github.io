@@ -1,4 +1,4 @@
-import "./page.css";
+import "../page.css";
 import Icon from "react-eva-icons";
 
 const Footer = () => {

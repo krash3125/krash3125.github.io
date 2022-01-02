@@ -2,6 +2,13 @@ body {
   color: #030e12;
 }
 
+@font-face {
+  font-family: "CircularStd";
+  src: url("./fonts/circular-std-font.ttf") format("opentype");
+}
+
+/* --------------- Landing Page --------------- */
+
 .landing {
   display: flex;
   align-items: center;
@@ -11,15 +18,75 @@ body {
   background-color: #00a4cc;
 }
 
-.icon {
-  height: 3vh;
-  width: 3vh;
+.landing h1 {
+  font-family: "CircularStd";
+  font-size: 6em;
+  color: white;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.down-button {
+  padding: 0.5em;
+  border-radius: 50%;
   margin: 0 auto 4rem auto;
 }
 
-.icon:hover {
-  cursor: pointer;
+.down-button:hover {
+  box-shadow: 0 0 0.1rem 0.1rem white, 0 0 0.2rem 0.2rem red,
+    0 0 0.3rem 0.3rem blue;
 }
+
+.landing-div-cover {
+  /* border: 3px solid red; */
+  padding: 8rem;
+  border-radius: 8em;
+  box-shadow: 0 0 1rem 1rem white, 0 0 2rem 2rem red, 0 0 3rem 3rem blue;
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+  -ms-animation: fadein 5s; /* Internet Explorer */
+  -o-animation: fadein 5s; /* Opera < 12.1 */
+  animation: fadein 5s;
+}
+
+/* --------------- About --------------- */
 
 .about {
   display: flex;
@@ -42,6 +109,36 @@ body {
   border: 3px solid #030e12;
   border-radius: 50%;
 }
+
+.aboutPfp:hover {
+  cursor: pointer;
+  -webkit-animation: scaleup 1.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: scaleup 1.5s; /* Firefox < 16 */
+  -ms-animation: scaleup 1.5s; /* Internet Explorer */
+  -o-animation: scaleup 1.5s; /* Opera < 12.1 */
+  animation: scaleup 1.5s;
+}
+
+@keyframes scaleup {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes scaleup {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+/* --------------- Projects --------------- */
 
 .projects {
   display: flex;

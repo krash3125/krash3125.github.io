@@ -1,5 +1,5 @@
-import "./page.css";
-import imgIcon from "./img/down-arrow.svg";
+import "../page.css";
+import imgIcon from "../img/down-arrow.svg";
 
 const About = () => {
   return (

@@ -1,7 +1,7 @@
-import "./page.css";
-import qs1 from "./img/quizlet-shortcut-1.png";
-import qs2 from "./img/quizlet-shortcut-2.png";
-import smartmouth from "./img/smartmouth.png";
+import "../page.css";
+import qs1 from "../img/quizlet-shortcut-1.png";
+import qs2 from "../img/quizlet-shortcut-2.png";
+import smartmouth from "../img/smartmouth.png";
 
 const ProjectCard = (params) => {
   return (

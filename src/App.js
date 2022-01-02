@@ -1,11 +1,17 @@
-import NavBar from "./navbar.jsx";
-import Page from "./page.jsx";
+import NavBar from "./components/navbar.jsx";
+import Landing from "./components/landing.jsx";
+import Projects from "./components/projects.jsx";
+import About from "./components/about.jsx";
+import Footer from "./components/footer.jsx";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Page />
+      <Landing />
+      <Projects />
+      <About />
+      <Footer />
     </>
   );
 }

@@ -1,10 +1,10 @@
 import "../page.css";
-import imgIcon from "../img/down-arrow.svg";
+import chessboard from "../img/chess.png";
 
 const About = () => {
   return (
     <secion id="about" className="about">
-      <img className="aboutPfp" src={imgIcon} />
+      <img className="about-pfp" src={chessboard} />
       <div>
         <h1>About Me</h1>
         <p>

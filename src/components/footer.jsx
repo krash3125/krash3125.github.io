@@ -2,69 +2,39 @@ import "../page.css";
 import Icon from "react-eva-icons";
 
 const Footer = () => {
+  //other social icon names: linkedin, twitter, facebook
+
   return (
     <secion id="footer" className="footer">
       <div className="footer-icon-list">
-        <div className="footer-icon">
-          <Icon
-            name="github"
-            size="xlarge" // small, medium, large, xlarge
-            fill="#FCDE67"
-            animation={{
-              type: "pulse", // zoom, pulse, shake, flip
-              hover: true,
-              infinite: false,
-            }}
-          />
-        </div>
-        <div className="footer-icon">
-          <Icon
-            name="linkedin"
-            size="xlarge" // small, medium, large, xlarge
-            fill="#FCDE67"
-            animation={{
-              type: "pulse", // zoom, pulse, shake, flip
-              hover: true,
-              infinite: false,
-            }}
-          />
-        </div>
-        <div className="footer-icon">
-          <Icon
-            name="twitter"
-            size="xlarge" // small, medium, large, xlarge
-            fill="#FCDE67"
-            animation={{
-              type: "pulse", // zoom, pulse, shake, flip
-              hover: true,
-              infinite: false,
-            }}
-          />
-        </div>
-        <div className="footer-icon">
-          <Icon
-            name="email"
-            size="xlarge" // small, medium, large, xlarge
-            fill="#FCDE67"
-            animation={{
-              type: "pulse", // zoom, pulse, shake, flip
-              hover: true,
-              infinite: false,
-            }}
-          />
-        </div>
-        <div className="footer-icon">
-          <Icon
-            name="facebook"
-            size="xlarge" // small, medium, large, xlarge
-            fill="#FCDE67"
-            animation={{
-              type: "pulse", // zoom, pulse, shake, flip
-              hover: true,
-              infinite: false,
-            }}
-          />
-        </div>
+        <a href="https://github.com/krash3125/" target="_blank">
+          <div className="footer-icon">
+            <Icon
+              name="github"
+              size="xlarge" // small, medium, large, xlarge
+              fill="#FCDE67"
+              animation={{
+                type: "pulse", // zoom, pulse, shake, flip
+                hover: true,
+                infinite: false,
+              }}
+            />
+          </div>
+        </a>
+        <a href="mailto:khannakushagr@gmail.com" target="_blank">
+          <div className="footer-icon">
+            <Icon
+              name="email"
+              size="xlarge" // small, medium, large, xlarge
+              fill="#FCDE67"
+              animation={{
+                type: "pulse", // zoom, pulse, shake, flip
+                hover: true,
+                infinite: false,
+              }}
+            />
+          </div>
+        </a>
       </div>
       <br />
       <div>

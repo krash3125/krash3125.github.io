@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.32b38f6c.chunk.css",
-    "main.js": "/static/js/main.2a9f45f8.chunk.js",
-    "main.js.map": "/static/js/main.2a9f45f8.chunk.js.map",
+    "main.css": "/static/css/main.c412497e.chunk.css",
+    "main.js": "/static/js/main.95cfebe4.chunk.js",
+    "main.js.map": "/static/js/main.95cfebe4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d2bccde8.js",
     "runtime-main.js.map": "/static/js/runtime-main.d2bccde8.js.map",
     "static/js/2.376966b7.chunk.js": "/static/js/2.376966b7.chunk.js",
     "static/js/2.376966b7.chunk.js.map": "/static/js/2.376966b7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.32b38f6c.chunk.css.map": "/static/css/main.32b38f6c.chunk.css.map",
+    "static/css/main.c412497e.chunk.css.map": "/static/css/main.c412497e.chunk.css.map",
     "static/js/2.376966b7.chunk.js.LICENSE.txt": "/static/js/2.376966b7.chunk.js.LICENSE.txt",
+    "static/media/anagrams-android-app.af46bf65.png": "/static/media/anagrams-android-app.af46bf65.png",
+    "static/media/chess.e53ffa61.png": "/static/media/chess.e53ffa61.png",
     "static/media/page.css": "/static/media/circular-std-font.3fcb6535.ttf",
-    "static/media/down-arrow.b2e6b178.svg": "/static/media/down-arrow.b2e6b178.svg",
-    "static/media/quizlet-shortcut-1.f53d43c8.png": "/static/media/quizlet-shortcut-1.f53d43c8.png",
-    "static/media/quizlet-shortcut-2.bb8998b5.png": "/static/media/quizlet-shortcut-2.bb8998b5.png",
-    "static/media/smartmouth.95a6acf9.png": "/static/media/smartmouth.95a6acf9.png"
+    "static/media/pcq.49a4d555.png": "/static/media/pcq.49a4d555.png",
+    "static/media/quizlet-shortcut-4.6b02f663.png": "/static/media/quizlet-shortcut-4.6b02f663.png",
+    "static/media/smartmouth.4c089c65.png": "/static/media/smartmouth.4c089c65.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d2bccde8.js",
     "static/js/2.376966b7.chunk.js",
-    "static/css/main.32b38f6c.chunk.css",
-    "static/js/main.2a9f45f8.chunk.js"
+    "static/css/main.c412497e.chunk.css",
+    "static/js/main.95cfebe4.chunk.js"
   ]
 }

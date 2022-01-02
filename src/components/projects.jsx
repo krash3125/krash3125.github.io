@@ -42,7 +42,7 @@ const Projects = () => {
             title="Smartmouth"
             description="A fast paced word game to play with friends"
             skills="HTML/CSS, JS, ReactJS, jQuery, Socket.io"
-            link="https://github.com/krash3125/SmartMouth/"
+            link="https://github.com/krash3125/SmartMouth"
           />
           <ProjectCard
             img={quizletshortcuts}
@@ -66,7 +66,7 @@ const Projects = () => {
               title="Chess"
               description="A Java application developed to play among friends"
               skills="Java, JSwing"
-              link="https://github.com/krash3125/Chess/"
+              link="https://github.com/krash3125/Chess"
             />
           </div>
           <div class="col-4 mx-auto">
@@ -75,7 +75,7 @@ const Projects = () => {
               title="Private Clinic Queue (In Development)"
               description="A doctor/patient service in which small clinics can easily manage patients in an organized and quick manner"
               skills="HTML/CSS, JS, Mongoose, BcryptJS, Passport, JWT, Axois"
-              link="https://github.com/krash3125/QuizletShortcuts"
+              link="https://github.com/krash3125/pcq3"
             />
           </div>
         </div>

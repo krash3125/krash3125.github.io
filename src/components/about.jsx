@@ -9,7 +9,7 @@ const About = () => {
         <h1>About Me</h1>
         <p>
           A Junior at Lynbrook High School who loves to code in his free time! I
-          also love to play games, badminton, and chess.
+          also love to play badminton and chess.
         </p>
       </div>
     </secion>

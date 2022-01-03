@@ -82,8 +82,8 @@ body {
 
 .landing-div-cover {
   padding: 5rem;
-  border-radius: 8em;
-  box-shadow: 0 0 1rem 1rem white, 0 0 2rem 2rem red, 0 0 3rem 3rem blue;
+  /* border-radius: 8em; */
+  /* box-shadow: 0 0 1rem 1rem white, 0 0 2rem 2rem red, 0 0 3rem 3rem blue; */
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 5s; /* Firefox < 16 */
   -ms-animation: fadein 5s; /* Internet Explorer */

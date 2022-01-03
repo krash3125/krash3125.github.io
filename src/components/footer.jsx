@@ -7,7 +7,11 @@ const Footer = () => {
   return (
     <secion id="footer" className="footer">
       <div className="footer-icon-list">
-        <a href="https://github.com/krash3125/" target="_blank">
+        <a
+          href="https://github.com/krash3125/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="footer-icon">
             <Icon
               name="github"
@@ -21,7 +25,11 @@ const Footer = () => {
             />
           </div>
         </a>
-        <a href="mailto:khannakushagr@gmail.com" target="_blank">
+        <a
+          href="mailto:khannakushagr@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+        >
           <div className="footer-icon">
             <Icon
               name="email"

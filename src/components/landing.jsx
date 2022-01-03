@@ -8,7 +8,11 @@ const Landing = () => {
         <h1>Kushagr Khanna</h1>
         <div class="d-inline-block mx-auto">
           <div class="footer-icon-list">
-            <a href="https://github.com/krash3125/" target="_blank">
+            <a
+              href="https://github.com/krash3125/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="footer-icon">
                 <Icon
                   name="github"
@@ -22,7 +26,11 @@ const Landing = () => {
                 />
               </div>
             </a>
-            <a href="mailto:khannakushagr@gmail.com" target="_blank">
+            <a
+              href="mailto:khannakushagr@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="footer-icon">
                 <Icon
                   name="email"

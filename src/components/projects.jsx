@@ -7,8 +7,8 @@ import pcq from "../img/pcq.png";
 
 const ProjectCard = (params) => {
   return (
-    <div class="project-card col">
-      <a href={params.link} target="_blank">
+    <div class="project-card col-md">
+      <a href={params.link} target="_blank" rel="noreferrer">
         <div
           className="project-card-img col"
           style={{
@@ -34,7 +34,7 @@ const ProjectCard = (params) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects">
+    <section id="projects" className="projects container-fluid">
       <div>
         <div class="w-100 row">
           <ProjectCard
@@ -60,7 +60,7 @@ const Projects = () => {
           />
         </div>
         <div class="w-100 row mt-4">
-          <div class="col-4 mx-auto">
+          <div class="col-md-4 mx-auto">
             <ProjectCard
               img={chess}
               title="Chess"
@@ -69,7 +69,7 @@ const Projects = () => {
               link="https://github.com/krash3125/Chess"
             />
           </div>
-          <div class="col-4 mx-auto">
+          <div class="col-md-4 mx-auto">
             <ProjectCard
               img={pcq}
               title="Private Clinic Queue (In Development)"

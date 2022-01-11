@@ -143,12 +143,40 @@ body {
 /* --------------- Projects --------------- */
 
 .projects {
-  display: flex;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #fcde67;
-  padding: 8rem;
+  display: grid;
+  gap: 1.5rem;
+  padding: 6rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "one two three"
+    "four five five";
+  /* "one one two"
+    "five five five"
+    "three four four"; */
 
+
+  background-color: #fcde67;
+}
+
+
+.projects div:nth-child(1) {
+  grid-area: one;
+}
+
+.projects div:nth-child(2) {
+  grid-area: two;
+}
+
+.projects div:nth-child(3) {
+  grid-area: three;
+}
+
+.projects div:nth-child(4) {
+  grid-area: four;
+}
+
+.projects div:nth-child(5) {
+  grid-area: five;
 }
 
 .project-card-padding {
@@ -236,14 +264,15 @@ body {
   color: #fcde67;
 }
 
-/* --- mobile --- */
-@media screen and (max-width: 480px) {
+/* tablet/smaller */
+@media (max-width: 991.98px) {
   .projects {
-    padding: 1rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 4rem;
+    grid-template-areas:
+      "one two"
+      "three four"
+      "five five";
   }
-
   .project-card-padding {
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
@@ -259,3 +288,19 @@ body {
     padding: 4rem;
   }
 }
+
+/* --- mobile --- */
+@media screen and (max-width: 575.98px) {
+  .projects {
+    padding: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    grid-template-areas:
+      "one"
+      "two"
+      "three"
+      "four"
+      "five";
+  }
+}
+

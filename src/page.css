@@ -18,7 +18,8 @@ body {
   text-align: center;
   justify-content: center;
   height: 100vh;
-  background-color: #00a4cc;
+  /* background-color: #00a4cc; */
+  background-image: linear-gradient(to bottom, #00a4cc 20%, #fcde67);
 }
 
 .landing h1 {
@@ -115,6 +116,9 @@ body {
   background-color: #00a4cc;
   font-family: "CircularStd";
   color: white;
+  
+  background-image: linear-gradient(to bottom, #fcde67 20%, #00a4cc);
+
 }
 
 .about h1 {
@@ -245,8 +249,11 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
+  min-height: 250px;
   height: 40vh;
   background-color: #212529;
+  /* background-image: linear-gradient(to top, #212529 20%, #00a4cc); */
+
 }
 
 .footer-icon-list {
@@ -303,4 +310,47 @@ body {
       "five";
   }
 }
+
+/* ---- nav --- */
+
+.navbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  z-index: 1;
+  padding: 0;
+  width: 100%;
+  height: 64px;
+
+  -webkit-animation: fadein 5s;
+  -moz-animation: fadein 5s;
+  -ms-animation: fadein 5s;
+  -o-animation: fadein 5s;
+  animation: fadein 5s;
+  font-size: 1rem;
+}
+
+.navbar a {
+  color: white;
+  font-family: "CircularStd";
+  text-decoration: none;
+  padding: 1px;
+  
+  background:linear-gradient(white,white) bottom no-repeat;
+  background-size:50% 3px;
+
+  transition: background-size 0.5s ease-in;
+}
+
+.navbar a:hover {
+  background-size: 
+  90% 3px, 
+  3px 0, 
+  3px 0, 
+  3px 0;
+}
+
 

@@ -10,12 +10,6 @@ object-assign
         http://jedwatson.github.io/classnames
         */
 
-/*!
-  Copyright (c) 2018 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/
-
 /*! !../../node_modules/css-loader!../../node_modules/sass-loader/lib/loader.js!./animation.scss */
 
 /*! ../../node_modules/css-loader/lib/css-base.js */
